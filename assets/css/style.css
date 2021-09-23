@@ -3,3 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1200px;
+    height: 70px;
+    z-index: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    display: inline-block;
+    line-height: 70px;
+    padding: 20px 30px;
+    margin-right: 30px;
+    vertical-align: middle;
+    
+}
+
+.left-nav{
+    float: left;
+
+}
+
+.right-nav{
+    float: right;
+}
+
+.left-nav ul, .right-nav ul{
+    list-style: none;
+}
+
+.left-nav ul li, .right-nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    padding: 0 10px;
+
+}
+
+
+.button{
+    background-color: #0061ff;
+    border-color: #0061ff;
+}
+
+.button{
+    color: white;
+    line-height: 30px;
+    padding: 18px;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid black;
+}
