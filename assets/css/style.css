@@ -90,7 +90,7 @@ nav ul li:hover{
 
 .jumbo-bg{
     background-color: #b4d0e7;
-    height: 85vh;
+    height: 650px;
 }
 
 .container-jumbo{
@@ -139,7 +139,7 @@ nav ul li:hover{
 }
 
 .container h2{
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 42px;
 }
 
@@ -151,6 +151,31 @@ nav ul li:hover{
     margin-right: 30px;
 }
 
-.column{
-    float: left;
+.column-aside, .column-center{
+    display: inline-block;
+    width: 26%;
+
+}
+
+.column-center{
+    margin: 0 80px;
+}
+
+.column-top{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.column-middle{
+    border: 1px solid black;
+}
+
+.column-title{
+    line-height: 35px;
+    text-align: center;
+    
+}
+
+.column-middle h3{
+    margin: 20px 0;
 }
