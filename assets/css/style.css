@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -94,7 +94,7 @@ nav ul li:hover{
 }
 
 .container-jumbo{
-    width: 75%;
+    width: 80%;
     margin: 70px auto;
 }
 
@@ -135,11 +135,11 @@ nav ul li:hover{
 }
 
 .title-img img{
-    width: 100%;
+    width: 110%;
 }
 
 .container h2{
-    margin-top: 150px;
+    margin-top: 250px;
     font-size: 42px;
 }
 
@@ -151,31 +151,96 @@ nav ul li:hover{
     margin-right: 30px;
 }
 
-.column-aside, .column-center{
-    display: inline-block;
-    width: 26%;
-
+.column-aside{
+    float: left;
+    width: 28%;
 }
 
 .column-center{
+    float: left;
     margin: 0 80px;
-}
+    width: 28%;
+}       
 
 .column-top{
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #e3e3e5;
+    line-height: 40px;
 }
 
 .column-middle{
-    border: 1px solid black;
-}
-
-.column-title{
-    line-height: 35px;
-    text-align: center;
-    
+    height: 900px;
+    padding: 15px;
+    margin-bottom: 40px;
+    border:1px solid #e3e3e5;
 }
 
 .column-middle h3{
     margin: 20px 0;
 }
+
+.plan{
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.button.clm{
+    margin: 30px 0;
+    font-size: 16px;
+}
+
+.buy-now{
+    display: inline-block;
+}
+
+.buy-now a{
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+.border-clm{
+    width: 60px;
+    margin: 30px 0;
+    border:1px solid #e3e3e5;
+
+}
+
+.plan-recap{
+    margin: 30px 0;
+}
+
+.column-last{
+    padding: 15px;
+    border:1px solid #e3e3e5;
+
+}
+
+.btm h3{
+    float: left;
+    width: 70%;
+    
+}
+
+.button-bottom{
+    float: left;
+    width: 30%;
+    padding: 6px 18px;
+    font-size: 16px;
+    background-color: #0061ff;
+    border-color: #0061ff;
+    color: white;
+}
+
+.btm h4{
+    margin-bottom: 40px;
+}
+
+.column-last h4{
+    margin: 30px 0;
+}
+
+
+
+
+
