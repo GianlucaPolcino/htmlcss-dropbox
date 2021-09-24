@@ -76,7 +76,7 @@ header ul{
 
 
 .button{
-    padding: 6px 18px;
+    padding: 10px 24px;
     margin: 0 8px;
     background-color: #0061ff;
     border-color: #0061ff;
@@ -153,13 +153,13 @@ nav ul li:hover{
 
 .column-aside{
     float: left;
-    width: 28%;
+    width: calc(33.33% - 40px);
 }
 
 .column-center{
     float: left;
-    margin: 0 80px;
-    width: 28%;
+    margin: 0 60px;
+    width: calc(33.33% - 40px);
 }       
 
 .column-top{
@@ -183,6 +183,10 @@ nav ul li:hover{
     display: inline-block;
     margin-bottom: 30px;
     margin-top: 10px;
+}
+
+.btn-container{
+    text-align: center;
 }
 
 .button.clm{
@@ -225,7 +229,7 @@ nav ul li:hover{
 .button-bottom{
     float: left;
     width: 30%;
-    padding: 6px 18px;
+    padding: 10px 24px;
     font-size: 16px;
     background-color: #0061ff;
     border-color: #0061ff;
@@ -239,6 +243,86 @@ nav ul li:hover{
 .column-last h4{
     margin: 30px 0;
 }
+
+.column-bottom{
+    margin-bottom: 150px;
+}
+
+.box-img{
+    float: left;
+    width: 50%;
+}
+
+.box-img img{
+    width: 100%;
+}
+
+.box-text{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.box-text h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.box-text p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-midsection{
+    padding: 10px 24px;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+.midsection{
+    margin-bottom: 100px;
+}
+
+.section-row h2{
+    margin: 0 0 40px 0;
+}
+
+.row{
+    margin: 40px 0;
+}
+
+.photo-cube{
+    float: left;
+    width: calc(33.33% - 20px);
+}
+
+.photo-cube-center{
+    float: left;
+    width: calc(33.33% - 20px);
+    margin: 0 30px;
+}
+
+.photo-cube img{
+    width: 100%;
+}
+
+.photo-cube-center img{
+    width: 100%;
+}
+
+.photo-cube h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.photo-cube-center h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
 
 
 
