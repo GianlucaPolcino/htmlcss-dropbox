@@ -323,6 +323,55 @@ nav ul li:hover{
     margin-bottom: 20px;
 }
 
+.title{
+    margin: 150px 0;
+}
+
+.title h2{
+    margin: 0;
+    width: 50%;
+}
+
+.title span a{
+    display: inline-block;
+    margin-top: 20px;
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.puzzle-aside{
+    float: left;
+    width: 25%;
+    height: 500px;
+    background-color: indianred;
+}
+
+.puzzle-center{
+    float: left;
+    width: 50%;
+}
+
+.piece{
+    position: relative;
+    float: left;
+    width: 50%;
+
+}
+
+.piece.green{
+    background-color: green;
+}
+
+.piece img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 
 
 
