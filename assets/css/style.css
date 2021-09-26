@@ -42,6 +42,11 @@ header ul{
     display: inline-block;
 }
 
+footer{
+    height: 400px;
+    background-color: black;
+}
+
 .logo{
     float: left;
     vertical-align: middle;
@@ -49,7 +54,7 @@ header ul{
 
 .logo img{
     display: inline-block;
-    padding: 22px;
+    padding: 21px;
     margin-right: 30px;
     
 }
@@ -76,8 +81,9 @@ header ul{
 
 
 .button{
-    padding: 10px 24px;
+    padding: 8px 24px;
     margin: 0 8px;
+    font-size: 16px;
     background-color: #0061ff;
     border-color: #0061ff;
     color: white;
@@ -175,6 +181,14 @@ nav ul li:hover{
     border:1px solid #e3e3e5;
 }
 
+.column-middle ul{
+    list-style: none;
+}
+
+.column-middle ul li{
+    margin-bottom: 18px;
+}
+
 .column-middle h3{
     margin: 20px 0;
 }
@@ -183,6 +197,11 @@ nav ul li:hover{
     display: inline-block;
     margin-bottom: 30px;
     margin-top: 10px;
+    color: #828e9a;
+}
+
+.user::before{
+    
 }
 
 .btn-container{
@@ -271,7 +290,7 @@ nav ul li:hover{
 .box-text p{
     margin-bottom: 30px;
     font-size: 16px;
-    font-weight: bold;
+    line-height: 30px;
 }
 
 .btn-midsection{
@@ -342,19 +361,21 @@ nav ul li:hover{
 .puzzle-aside{
     float: left;
     width: 30%;
-    height: 65vh;
+    height: 30vw;
 }
 
 .puzzle-center{
     float: left;
     width: 40%;
-    height: 65vh;
+    height: 30vw;
+    overflow: auto;
     padding: 35px;
     background-color: #f5f5f5;
 }
 
 .puzzle-center p{
     font-weight: bold;
+    line-height: 30px;
 }
 
 .puzzle-center p:first-of-type{
@@ -417,18 +438,93 @@ nav ul li:hover{
 }
 
 .puzzle-end{
-    height: 300px;
+    height: 275px;
+    margin-bottom: 100px;
     background-color: #b4d0e7;
 }
 
-.puzzle-text h3{
+.puzzle-text{
     float: left;
     width: 50%;
+    padding: 90px 0;
+}
+
+.puzzle-text h3{
+    font-size: 40px;
+    color: #61082c;
+}
+
+.puzzle-button{
+    float: left;
+    width: 50%;
+    padding: 90px 0;
+    text-align: right;
 }
 
 .puzzle-button button{
+    padding: 10px 24px;
+    font-size: 18px;
+    background-color: white;
+    border-color: white;
+}
+
+.faq h3{
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.faq-div{
+    border-top: 1px solid #e3e3e5;
+}
+
+.faq-div:last-child{
+    border-bottom: 1px solid #e3e3e5;
+    margin-bottom: 100px;
+}
+
+.faq-div h4{
+    float: left;
+    line-height: 90px;
+    font-size: 18px;
+}
+
+.faq-div i{
+    float: right;
+    font-size: 18px;
+    line-height: 90px;
+    padding-right: 20px;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-container ul{
+    float: left;
+    width: 20%;
+    padding: 70px 0;
+    list-style: none;
+    color: white;
+}
+
+.footer-container a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
     
 }
+
+.footer-container li{
+    margin-bottom: 18px;
+}
+
+.footer-title{
+    font-size: 26px;
+    font-weight: bold;
+}
+
 
 
 
