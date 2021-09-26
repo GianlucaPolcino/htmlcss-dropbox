@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -96,11 +100,11 @@ nav ul li:hover{
 
 .jumbo-bg{
     background-color: #b4d0e7;
-    height: 650px;
+    height: 700px;
 }
 
 .container-jumbo{
-    width: 80%;
+    width: 75%;
     margin: 70px auto;
 }
 
@@ -128,7 +132,7 @@ nav ul li:hover{
 }
 
 .title-subtext h4{
-    margin: 10px 0 30px 0;
+    margin: 10px 0 50px 0;
     font-size: 14px;
 }
 
@@ -173,6 +177,7 @@ nav ul li:hover{
 .column-top{
     text-align: center;
     border: 1px solid #e3e3e5;
+    border-bottom: none;
     line-height: 40px;
 }
 
@@ -498,7 +503,7 @@ nav ul li:hover{
 }
 
 .footer-container{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
