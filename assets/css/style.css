@@ -47,7 +47,7 @@ header ul{
 }
 
 footer{
-    height: 400px;
+    height: 600px;
     background-color: black;
 }
 
@@ -100,7 +100,7 @@ nav ul li:hover{
 
 .jumbo-bg{
     background-color: #b4d0e7;
-    height: 700px;
+    height: 95vh;
 }
 
 .container-jumbo{
@@ -182,7 +182,7 @@ nav ul li:hover{
 }
 
 .column-middle{
-    height: 900px;
+    min-height: 1000px;
     padding: 15px;
     margin-bottom: 40px;
     border:1px solid #e3e3e5;
@@ -207,9 +207,6 @@ nav ul li:hover{
     color: #828e9a;
 }
 
-.user::before{
-    
-}
 
 .btn-container{
     text-align: center;
@@ -271,7 +268,7 @@ nav ul li:hover{
 }
 
 .column-bottom{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .box-img{
@@ -407,6 +404,14 @@ nav ul li:hover{
 
 }
 
+.piece img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
 .green{
     background-color: #a2d39b;
     border: 10px solid #d1e9cd;
@@ -530,6 +535,23 @@ nav ul li:hover{
 .footer-title{
     font-size: 26px;
     font-weight: bold;
+}
+
+.footer-container .border-clm{
+    width: 200px;
+    color: #999999;
+}
+
+.language{
+    color: #999999;
+}
+
+.language i:last-child{
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+    padding: 0 4px;
+    margin-top: 5px;
 }
 
 
