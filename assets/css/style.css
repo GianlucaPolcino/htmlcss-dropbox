@@ -217,14 +217,12 @@ nav ul li:hover{
 
 .user::before{
     font-family: "Font Awesome 5 Free"; 
-    /* font-weight: 900;  */
     content: "\f007";
 
 }
 
 .folder::before{
     font-family: "Font Awesome 5 Free"; 
-    /* font-weight: 900;  */
     content: "\f07b";
 
 }
@@ -245,7 +243,6 @@ nav ul li:hover{
 
 .smile::before{
     font-family: "Font Awesome 5 Free"; 
-    /* font-weight: 900;  */
     content: "\f118";
 
 }
