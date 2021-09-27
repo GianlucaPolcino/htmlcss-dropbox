@@ -105,7 +105,7 @@ nav ul li:hover{
 
 .jumbo-bg{
     background-color: #b4d0e7;
-    height: 95vh;
+    height: 700px;
 }
 
 .container-jumbo{
@@ -574,11 +574,29 @@ nav ul li:hover{
     font-size: 18px;
 }
 
+.faq-div p{
+    float: left;
+    width: 80%;
+    display: none;
+    margin-bottom: 20px;
+    color: #808e99;
+}
+
+.faq-div:hover p{
+    display: block;
+}
+
+
 .faq-div i{
     float: right;
     font-size: 18px;
     line-height: 90px;
-    padding-right: 20px;
+    padding: 0 20px;
+}
+
+.faq-div:hover i{
+    transform: rotate(180deg);
+    
 }
 
 .footer-container{
