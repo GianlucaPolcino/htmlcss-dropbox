@@ -168,6 +168,20 @@ nav ul li:hover{
     margin-right: 30px;
 }
 
+.checkbox span::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    content: "\f192";
+    color: #0061ff;
+}
+
+.checkbox span:last-child:before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 100; 
+    content: "\f111";
+    color: grey;
+}
+
 .column-aside{
     float: left;
     width: calc(33.33% - 40px);
