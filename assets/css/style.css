@@ -554,6 +554,54 @@ nav ul li:hover{
     margin-top: 5px;
 }
 
+.user::before{
+    font-family: "Font Awesome 5 Free"; 
+    /* font-weight: 900;  */
+    content: "\f007";
+
+}
+
+.folder::before{
+    font-family: "Font Awesome 5 Free"; 
+    /* font-weight: 900;  */
+    content: "\f07b";
+
+}
+
+.pen::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f303";
+
+}
+
+.user-plus::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f234";
+
+}
+
+.smile::before{
+    font-family: "Font Awesome 5 Free"; 
+    /* font-weight: 900;  */
+    content: "\f118";
+
+}
+
+.check::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f00c";
+    color: #0061ff;
+}
+
+
+
+
+
+
+
 
 
 
